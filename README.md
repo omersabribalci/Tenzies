@@ -9,5 +9,3 @@ This project is a small implementation of the Tenzies dice game, built for pract
 - Fastest game tracking (time)
 - Records saved with LocalStorage
 
-## Purpose
-Created as a practice project to explore React state management, TypeScript typing, and simple persistence with LocalStorage.
