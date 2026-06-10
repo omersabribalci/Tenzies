@@ -100,7 +100,7 @@ export default function App(): JSX.Element {
       <span>Best Time (seconds): {bestTime === Infinity ? "-" : bestTime}</span>
       <div className="dice-container">{diceElements}</div>
       <button ref={buttonRef} className="roll-dice" onClick={rollDice}>
-        {gameWon ? "New Game" : "Roll"}
+        {gameWon ? "Save Record & New Game" : "Roll"}
       </button>
     </main>
   );
